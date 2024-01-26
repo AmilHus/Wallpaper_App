@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_application_1"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:2:5-80
+16-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:2:22-78
+17    <uses-permission
+17-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:3:5-79
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:3:22-77
+19        android:maxSdkVersion="32" />
+19-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
+20    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+20-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:4:5-82
+20-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:4:22-79
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:5:5-76
+21-->C:\Users\amilg\Desktop\project\flutter_project\android\app\src\main\AndroidManifest.xml:5:22-73
+22    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+22-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-75
+22-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-72
+23    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+23-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-75
+23-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-72
+24
+25    <application
+26        android:name="android.app.Application"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] C:\Users\amilg\.gradle\caches\transforms-3\645824e6d3de42d460c3511a76b88d69\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+30        android:label="flutter_application_1"
+31        android:requestLegacyExternalStorage="true" >
+32        <activity
+33            android:name="com.example.flutter_application_1.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64
+65        <provider
+65-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
+66            android:name="com.crazecoder.openfile.FileProvider"
+66-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-64
+67            android:authorities="com.example.flutter_application_1.fileProvider.com.crazecoder.openfile"
+67-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-88
+68            android:exported="false"
+68-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+69            android:grantUriPermissions="true" >
+69-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-47
+70            <meta-data
+70-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-24:53
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-67
+72                android:resource="@xml/filepaths" />
+72-->[:open_filex] C:\Users\amilg\Desktop\project\flutter_project\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-50
+73        </provider>
+74
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+76            android:name="androidx.window.extensions"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+79            android:name="androidx.window.sidecar"
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\amilg\.gradle\caches\transforms-3\fb07f31773a58b6a6939d26a217fc942\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+81    </application>
+82
+83</manifest>
